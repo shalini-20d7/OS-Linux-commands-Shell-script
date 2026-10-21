@@ -88,7 +88,7 @@ cat > file22
 cut -c1-3 file11
 ## OUTPUT
 
-<img width="400" height="140" alt="image" src="https://github.com/user-attachments/assets/51903cbe-ed8e-4b2d-a74b-4d2e0aea596c" />
+<img width="323" height="143" alt="image" src="https://github.com/user-attachments/assets/36b2a645-1f4d-4049-ab56-9ea14177f862" />
 
 
 
@@ -867,6 +867,7 @@ done
  
 $ chmod 755 forin2.sh
  ## OUTPUT
+<img width="377" height="151" alt="image" src="https://github.com/user-attachments/assets/e9883a7c-851b-464b-8a6c-591db010ab27" />
 
 
 
@@ -888,6 +889,7 @@ $ chmod 755 forin2.sh
 $ ./forin2.sh 
 ## OUTPUT
 
+<img width="377" height="151" alt="image" src="https://github.com/user-attachments/assets/f204d221-b08f-413f-b251-13738e7c8efd" />
  
 
 cat forin3.sh 
@@ -902,6 +904,7 @@ done
 $ ./forin3.sh 
 ## OUTPUT
 
+<img width="405" height="218" alt="image" src="https://github.com/user-attachments/assets/18fc9345-9881-4265-95d7-7b77639def18" />
 
 
 cat forin1.sh 
@@ -917,6 +920,7 @@ $ chmod 755 forin1.sh
 
 ## OUTPUT
 
+<img width="385" height="210" alt="image" src="https://github.com/user-attachments/assets/5618769c-c6fd-4f84-bc22-447cea38df63" />
 
 
 cat forinfile.sh 
@@ -942,6 +946,7 @@ Khammam
 ## OUTPUT
 
 
+<img width="298" height="71" alt="image" src="https://github.com/user-attachments/assets/2386380f-4366-4113-b927-e638fad4cda2" />
 
 
 cat forctype.sh 
@@ -960,6 +965,7 @@ $ ./forctype.sh
 
 
 
+<img width="393" height="200" alt="image" src="https://github.com/user-attachments/assets/4e88139a-a2ab-4ead-8bf8-742b6e04980a" />
 
 
 
@@ -977,6 +983,7 @@ $ ./forctype1.sh
 ## OUTPUT
 
 
+<img width="392" height="191" alt="image" src="https://github.com/user-attachments/assets/e7c40194-1c91-4f58-97d5-4cfa78c590f0" />
 
 
 
@@ -999,6 +1006,7 @@ $ chmod 755 fornested1.sh
  
 $ ./fornested1.sh 
  ## OUTPUT
+<img width="437" height="335" alt="image" src="https://github.com/user-attachments/assets/1fa4ae2a-b82f-4f2d-ad67-2d4b1655391d" />
 
  
 cat forbreak.sh 
@@ -1016,32 +1024,15 @@ done
 echo "The for loop is completed“
 ```
 ## OUTPUT
-
-$ chmod 755 forbreak.sh
- 
-$ ./forbreak.sh 
- 
-cat forbreak.sh 
-```bash
-#!/bin/bash
-# breaking out of a for loop
-for var1 in 1 2 3 4 5
-do
-if [ $var1 -eq 3 ]
-then
-continue
-fi
-echo "Iteration number: $var1"
-done
-echo "The for loop is completed“
-```
+<img width="393" height="142" alt="image" src="https://github.com/user-attachments/assets/9e44259e-4fa2-4f7c-b73c-f5283d801cdb" />
 
  
 $ chmod 755 forcontinue.sh
  
 $ ./forcontinue.sh 
 ## OUTPUT
- 
+ <img width="412" height="182" alt="image" src="https://github.com/user-attachments/assets/2d93e86c-dc4e-45dd-814e-d935b43bb1b5" />
+
 cat exread.sh 
 ```bash
 #!/bin/bash
@@ -1055,6 +1046,7 @@ $ chmod 755 exread.sh
  
 $ ./exread.sh 
 ## OUTPUT
+<img width="440" height="126" alt="image" src="https://github.com/user-attachments/assets/c4077a60-4f26-4039-b41e-2b29135f8a8e" />
 
 
  cat exread1.sh
@@ -1067,6 +1059,7 @@ echo "Hello $name, welcome to my program. “
 $ chmod 755 exread1.sh 
 
 ## OUTPUT
+<img width="408" height="127" alt="image" src="https://github.com/user-attachments/assets/35d7ba46-16b4-423a-baa1-5c497fb2667b" />
 
 
 
@@ -1089,6 +1082,7 @@ fi
 ```
 ## OUTPUT
  ./funcex.sh 
+<img width="376" height="97" alt="image" src="https://github.com/user-attachments/assets/9f93f7da-8407-4a02-8ac0-fd910aff3a75" />
 
  
  ./funcex.sh 1 2
@@ -1106,7 +1100,8 @@ $ chmod 777 argshift.sh
 
 ## OUTPUT
 $ ./argshift.sh 1 2 3
- 
+ <img width="396" height="143" alt="image" src="https://github.com/user-attachments/assets/63ba2971-1d35-4e59-8551-3dcf8af3cba3" />
+
  cat argshift1.sh
 ```bash
  #/bin/bash 
@@ -1123,7 +1118,9 @@ done
 $ chmod 777 argshift.sh
 ## OUTPUT
 $ ./argshift.sh 1 2 3
- 
+<img width="405" height="142" alt="image" src="https://github.com/user-attachments/assets/cc88baa6-f88c-4d1a-be34-e8ec4e70cdeb" />
+
+
 cat argshift.sh
 ```bash
 #!/bin/bash 
@@ -1136,7 +1133,8 @@ set +x
 ```
 ## OUTPUT
  ./argshift.sh 1 2 3
- 
+ <img width="407" height="350" alt="image" src="https://github.com/user-attachments/assets/c51a16c1-e6ba-46c2-a078-90ad371f60dd" />
+
  
 cat > nc.awk
 ```bash
@@ -1167,7 +1165,8 @@ ubcdfghj
 ```
 awk -f nc.awk data.dat
 ## OUTPUT 
- 
+ <img width="376" height="65" alt="image" src="https://github.com/user-attachments/assets/f781f77a-e08f-461b-a4b2-c1b323d6ffd0" />
+
 cat > palindrome.sh
 ```bash
 #num=545
@@ -1194,6 +1193,7 @@ else
 fi
 ```
 ## OUTPUT 
+<img width="407" height="138" alt="image" src="https://github.com/user-attachments/assets/20a84508-4dab-4a8c-88b5-fcfd9a186147" />
 
 
 # RESULT:

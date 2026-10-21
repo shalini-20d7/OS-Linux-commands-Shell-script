@@ -1046,7 +1046,8 @@ $ chmod 755 exread.sh
  
 $ ./exread.sh 
 ## OUTPUT
-<img width="440" height="126" alt="image" src="https://github.com/user-attachments/assets/c4077a60-4f26-4039-b41e-2b29135f8a8e" />
+<img width="485" height="77" alt="image" src="https://github.com/user-attachments/assets/4c5efa1e-7a56-4661-8faa-f920db0f2013" />
+
 
 
  cat exread1.sh
@@ -1059,7 +1060,7 @@ echo "Hello $name, welcome to my program. “
 $ chmod 755 exread1.sh 
 
 ## OUTPUT
-<img width="408" height="127" alt="image" src="https://github.com/user-attachments/assets/35d7ba46-16b4-423a-baa1-5c497fb2667b" />
+<img width="488" height="107" alt="image" src="https://github.com/user-attachments/assets/0c107816-15ba-4aad-b3ba-99666d39950a" />
 
 
 

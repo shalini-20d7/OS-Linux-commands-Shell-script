@@ -868,7 +868,11 @@ done
 $ chmod 755 forin2.sh
  ## OUTPUT
 
+
+
+
  
+
 
 cat forin2.sh 
 ```bash
